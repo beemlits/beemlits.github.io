@@ -1,0 +1,35 @@
+/**
+ * Styles for the add-observation.html page 
+ */
+.col-group-1, .col-group-2, .col-group-3{
+    border: solid lightblue;
+    border-width: 3px;
+    padding: 10px;
+    border-radius: 0.7em;
+    margin-bottom: 20px;
+}
+
+.form-title-observation{
+    background-color: white;
+    margin-top: -24px;
+    margin-left: 10px;
+    width: 90px;
+}
+
+.form-title-location{
+    background-color: white;
+    margin-top: -24px;
+    margin-left: 10px;
+    width: 63px;
+}
+
+.form-title-photo{
+    background-color: white;
+    margin-top: -24px;
+    margin-left: 10px;
+    width: 44px;
+}
+
+.invalid-feedback-lat, .invalid-feedback-long, #form-star{
+    color: red;
+}
